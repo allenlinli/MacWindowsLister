@@ -1,0 +1,10 @@
+Write a program in Swift 2.0 for Mac OS X, which lists user's windows (process name, non-empty window title) and marks the active one. The Swift playground version is sufficient. 
+
+Deliverables:
+The source code and a short explanation of design choices.
+
+Please provide good quality code: working, succinct, easy to read and understand.
+
+E-mail your deliverables to tomasz@capisce.com.au
+
+Good luck!
