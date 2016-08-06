@@ -47,5 +47,20 @@ for windowDic in cgWindowListInfo2!
     }
     
     print(printString)
-    
 }
+
+
+let windowIDs = cgWindowListInfo2!.map { (windowDic) -> CGWindowID in
+    let number = windowDic["kCGWindowNumber"] as! NSNumber
+    return CGWindowID(number.integerValue)
+}
+
+
+// TODO: Try CFTypeRef
+/*
+var windows: [CFTypeRef] = windowIDs
+var windowsPointer = UnsafeMutablePointer<UnsafePointer<Void>>(windows)
+var cfArray = CFArrayCreate(nil, windowsPointer, windows.count, nil)
+*/
+
+
