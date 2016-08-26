@@ -1,5 +1,5 @@
 # MacWindowsLister
-Write a program in Swift 2.0 for Mac OS X, which lists user's windows (process name, non-empty window title) and marks the active one. The Swift playground version is sufficient.   
+Lists user's windows (process name, non-empty window title) and marks the active one. 
 
 
 
