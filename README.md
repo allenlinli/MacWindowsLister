@@ -1,6 +1,12 @@
 # MacWindowsLister
-List all the windows on Mac and provide the process id, title, if active of not.
+Write a program in Swift 2.0 for Mac OS X, which lists user's windows (process name, non-empty window title) and marks the active one. The Swift playground version is sufficient.   
 
+
+
+
+
+
+-----------------
 Reference:
 [Important] Uniquely identify active window on OS X  
 http://stackoverflow.com/questions/7422666/uniquely-identify-active-window-on-os-x/7423297#7423297  
@@ -13,15 +19,3 @@ https://github.com/mackuba/WindowFairy/blob/master/WindowManager.m
 
 Frontmost window of the current application that passes a predicate check  
 http://codereview.stackexchange.com/questions/87772/frontmost-window-of-the-current-application-that-passes-a-predicate-check  
-
-----------------------
-Write a program in Swift 2.0 for Mac OS X, which lists user's windows (process name, non-empty window title) and marks the active one. The Swift playground version is sufficient. 
-
-Deliverables:
-The source code and a short explanation of design choices.
-
-Please provide good quality code: working, succinct, easy to read and understand.
-
-E-mail your deliverables to tomasz@capisce.com.au
-
-Good luck!
