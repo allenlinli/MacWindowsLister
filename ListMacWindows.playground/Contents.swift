@@ -27,12 +27,12 @@ import Cocoa
 
 
 //find all the windows (CGWindows)
-let options = CGWindowListOption(arrayLiteral: CGWindowListOption.OptionAll)
+let options = CGWindowListOption(arrayLiteral: CGWindowListOption.optionAll)
 let cgWindowListInfo = CGWindowListCopyWindowInfo(options, CGWindowID(0))
 let cgWindowListInfo2 = cgWindowListInfo as NSArray? as? [[String: AnyObject]]
 
 //find the active apps process id
-let frontMostAppID = Int(NSWorkspace.sharedWorkspace().frontmostApplication!.processIdentifier)
+let frontMostAppID = Int(NSWorkspace.shared().frontmostApplication!.processIdentifier)
 
 for windowDic in cgWindowListInfo2!
 {
